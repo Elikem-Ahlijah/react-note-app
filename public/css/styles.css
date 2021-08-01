@@ -1,0 +1,23 @@
+.Firstrow {
+    background-color: grey;
+    text-align: right;
+    color: #ffffff;
+    border-left: 0px;
+}
+
+.orange {
+    background-color: rgba(250, 147, 50, 0.986);
+    color: #ffffff;
+    text-align: center;
+    border: .5px solid grey;
+    border-right: 0px;
+    
+}
+
+.ROWS {
+    background-color: rgb(207, 205, 205);
+    color: black;
+    text-align: center;
+    border: .5px solid grey;
+    border-left: 0px;
+}
