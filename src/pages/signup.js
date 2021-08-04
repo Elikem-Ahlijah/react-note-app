@@ -25,11 +25,11 @@ function Signup(props) {
         return <Redirect to = '/'/>
     }
     return (
-        <div className='container-flex App'>
+        <div className='container-flex App form'>
             <Link to="/">Home</Link>
             <Link to="/login">Login</Link>
             <Link to="/signup">Signup</Link>
-            <div>
+            
             <div>
                 <label>Email</label><br></br>
                 <input type="text" value={credentials.email}  name="email" onChange={handleonChange}></input>
@@ -40,7 +40,7 @@ function Signup(props) {
             </div>
 
             <button onClick={handleonSubmit}>Sign Up</button>
-            </div>
+            
         </div>
     )
 }

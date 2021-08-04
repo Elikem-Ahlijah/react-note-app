@@ -11,11 +11,13 @@ function display(props) {
         props.logout()
     } 
   return (
-    <div className="container-flex App">
+    <div className="container-flex App form">
+        
         <Link to="/">Home</Link>
         <Link to="/login">Login</Link>
         <Link to="/signup">Signup</Link>
-      <div className="row form">
+        
+      <div className="row ">
         <div className="col-md-6">
         <button type="button" style={{ backgroundColor: 'red', color: 'white' }} onClick={handleLogout}>
             Logout
