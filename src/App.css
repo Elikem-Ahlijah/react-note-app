@@ -2,7 +2,28 @@
   text-align: center;
 }
 
-.item{
-  height: auto;
-  width: auto;
+
+
+
+
+
+.form {
+  
+  height: 100vh;
+  background-color:rgb(205, 240, 110);
+
 }
+
+.button {
+  margin: 2px;
+}
+
+.item {
+  border: 1px solid gray;
+  border-radius: 5px, 5px;
+  background-color: honeydew;
+  margin: 10px;
+  background-color:rgb(129, 236, 115)
+
+}
+

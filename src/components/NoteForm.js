@@ -48,7 +48,7 @@ function NoteForm(props) {
     )
 }
 
-let mapDispatchToProps = {addNewNote: addNote};
+const mapDispatchToProps = {addNewNote: addNote};
 
 let mapStateToProps = () => {
 
